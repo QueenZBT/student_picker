@@ -32,7 +32,9 @@ export default {
   padding: 20px;
   border-radius: 20px;
   background-color: #e5e9ec;
-  height: 1000px;
+  width: 100vw;
+  /* height: 1000px; */
+  min-height: 100vh;
 
 
 }
