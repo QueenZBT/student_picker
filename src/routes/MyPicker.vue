@@ -66,14 +66,18 @@ export default {
 
 <style scoped>
 .btn {
-    width: 160px;
-    height: 50px;
-    font-size: 17px;
+    width: 10rem;
+    height: 3.125rem;
+    font-size: 1.0625rem;
     /* padding: 10px 20px; */
     border-radius: 30px;
     color: #fff;
     font-weight: 700;
     background-color: #4307fa;
     border: none;
+}
+
+h3 {
+    margin-top: 1.25rem;
 }
 </style>

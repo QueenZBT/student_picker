@@ -21,3 +21,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+**/\342\200\230
+**/\342\200\230.pub
+

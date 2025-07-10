@@ -28,28 +28,32 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+    margin: 1.25rem;
+}
+
 button {
-
-
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 0.625rem;
+    font-size: 1.125rem;
     border: 0.5px solid #330fe5;
     background-color: #fff;
     color: #330fe5;
     font-weight: 700;
+    margin-top: 1.25rem;
+    padding: 0.3125rem 0.625rem;
 
 }
 
 ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 0.625rem;
     padding: 0;
     list-style: none;
 
 }
 
 ul li {
-    border-bottom: 1px solid #330fe5;
+    border-bottom: 0.0625rem solid #330fe5;
 }
 </style>

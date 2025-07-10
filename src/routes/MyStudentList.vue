@@ -31,7 +31,7 @@
           <button @click="remove(index)">删除</button>
         </li>
       </ul>
-      <button @click="clearAllNames">清空</button>
+      <button @click="clearAllNames" style="margin-top:10px;">清空</button>
     </div>
 
   </div>
@@ -105,114 +105,114 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  margin-bottom: 1.25rem;
+}
+
 .left {
-  width: 400px;
-  height: 280px;
-  margin: 0 auto;
+  /* width: 9%; */
+  height: 17.5rem;
+  margin: 0.625rem auto;
   text-align: center;
   vertical-align: middle;
-  border: 2px dashed #330fe5;
-  border-radius: 10px;
-  /* background-color: skyblue; */
-  margin-bottom: 20px;
+  border: 0.125rem dashed #330fe5;
+  border-radius: 0.625rem;
+  padding: 0.3125rem;
 }
 
 
 
 .right {
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .right ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 0.625rem;
   list-style: none;
   padding: 0;
 }
 
 input[type='text'] {
-  width: 220px;
-  height: 40px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding-left: 10px;
+  width: 13.75rem;
+  height: 2.5rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.25rem;
+  padding-left: 0.625rem;
 
 }
 
 .icon-input {
   position: relative;
   display: inline-block;
-  width: 400px;
-  height: 50px;
-  /* border: 1px solid black; */
-  margin-top: 10px;
+  /* width: 400px; */
+  /* height: 50px; */
+
+  margin-top: 0.625rem;
+
+  line-height: 3.125rem;
 }
 
 .icon-input input {
-  position: absolute;
-  left: 40px;
-  top: 5px;
+
+  width: 65%;
+  margin-right: 0.3125rem;
 }
 
 .icon-input::after {
+
   content: '\e605';
   /* 你从 iconfont 上复制的编码 */
   font-family: 'iconfont';
   /* 通常是 iconfont，而不是 icon-chongwu */
   position: absolute;
-  left: 245px;
-  top: 28px;
+  left: 8.125rem;
+  top: 1.625rem;
   transform: translateY(-50%);
-  font-size: 23px;
+  font-size: 1.4375rem;
   color: #330fe5;
 }
 
 .btn {
-  margin-left: 10px;
-  width: 70px;
-  height: 42px;
-  border-radius: 10px;
-  font-size: 18px;
+
+  width: 30%;
+  border-radius: 0.625rem;
+  font-size: 1.125rem;
   border: 0.5px solid #330fe5;
   background-color: #fff;
   color: #330fe5;
   font-weight: 700;
-  position: absolute;
-  top: 5px;
-  right: 50px;
 
 }
 
 .middle {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 textarea {
-  border-radius: 10px;
-  width: 328px;
-  height: 95px;
+  border-radius: 0.625rem;
 
+  height: 5.9375rem;
+  padding-top: 0.625rem;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  padding-left: 10px;
+  border-radius: 0.25rem;
+  padding-left: 0.625rem;
 
 }
 
 input[type='file'] {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 button {
-
-
-  border-radius: 10px;
-  font-size: 18px;
-  border: 0.5px solid #330fe5;
+  border-radius: 0.625rem;
+  font-size: 1.125rem;
+  border: 0.0313rem solid #330fe5;
   background-color: #fff;
   color: #330fe5;
   font-weight: 700;
-
+  padding: 0.4375rem 0.4375rem;
 }
 </style>
